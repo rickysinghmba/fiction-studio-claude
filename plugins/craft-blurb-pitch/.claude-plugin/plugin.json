@@ -1,0 +1,17 @@
+{
+  "name": "craft-blurb-pitch",
+  "version": "1.2.0",
+  "description": "Blurb & pitch: Back-cover copy, a one-line hook and a pitch, in the genre's own style.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "launch",
+    "blurb-pitch"
+  ]
+}

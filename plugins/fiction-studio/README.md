@@ -5,7 +5,7 @@ Claude as a fiction-writing partner that works in your own book. It connects Cla
 ## What you get
 
 - **Writing Studio connector**: Claude can read your books, story bible, plan and timeline, and save drafts, plans and reviews. You sign in to the studio the first time Claude uses it.
-- **Skills**: `write-chapter` (draft, continue or redraft), `plan-book` (premise, chapter plans, clues, timeline) and `craft-plugins` (choose which practice packs to switch on for a book).
+- **Skills**: `write-chapter` (draft, continue or redraft), `plan-book` (premise, chapter plans, clues, timeline), `launch-copy` (blurb, tagline, pitch, reader emails, bio, store listing) and `craft-plugins` (choose which practice packs to switch on for a book).
 - **Editor agents**: `copy-editor`, `development-editor` and `story-critic`.
 
 Everything works without the studio too, on text you paste or files in your project; you just can't save into a book.
@@ -32,6 +32,10 @@ Then add any craft plugins you want, one per pack:
 - `craft-thriller-tension`: A clock that keeps ticking and stakes that rise every chapter.
 - `craft-worldbuilding`: Magic and technology with costs and limits, shown through the story, never dumped.
 - `craft-serial-hooks`: Every chapter opens fast and ends with a reason to read the next one.
+- `craft-blurb-pitch`: Back-cover copy, a one-line hook and a pitch, in the genre's own style.
+- `craft-reader-emails`: New-chapter, launch and update emails in your own voice, honest about what's free.
+- `craft-author-bio`: An author bio and author-page copy that sound like the pen name.
+- `craft-store-listing`: Description, keywords and categories for online bookstores, aimed at the right readers.
 
 ## In the Claude app
 

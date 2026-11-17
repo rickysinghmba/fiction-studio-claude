@@ -33,5 +33,9 @@ The same packs install as Claude plugins from the `convertsprint` marketplace, o
 - `craft-thriller-tension`: Thriller tension. A clock that keeps ticking and stakes that rise every chapter.
 - `craft-worldbuilding`: Worldbuilding. Magic and technology with costs and limits, shown through the story, never dumped.
 - `craft-serial-hooks`: Serial hooks. Every chapter opens fast and ends with a reason to read the next one.
+- `craft-blurb-pitch`: Blurb & pitch. Back-cover copy, a one-line hook and a pitch, in the genre's own style.
+- `craft-reader-emails`: Reader emails. New-chapter, launch and update emails in your own voice, honest about what's free.
+- `craft-author-bio`: Author bio & page. An author bio and author-page copy that sound like the pen name.
+- `craft-store-listing`: Store listing. Description, keywords and categories for online bookstores, aimed at the right readers.
 
 Install with `/plugin install <name>@convertsprint`.

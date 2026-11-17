@@ -26,6 +26,10 @@ Then add the craft plugins you want. Each is optional and installs on its own:
 | `craft-thriller-tension` | **Thriller tension.** A clock that keeps ticking and stakes that rise every chapter. |
 | `craft-worldbuilding` | **Worldbuilding.** Magic and technology with costs and limits, shown through the story, never dumped. |
 | `craft-serial-hooks` | **Serial hooks.** Every chapter opens fast and ends with a reason to read the next one. |
+| `craft-blurb-pitch` | **Blurb & pitch.** Back-cover copy, a one-line hook and a pitch, in the genre's own style. |
+| `craft-reader-emails` | **Reader emails.** New-chapter, launch and update emails in your own voice, honest about what's free. |
+| `craft-author-bio` | **Author bio & page.** An author bio and author-page copy that sound like the pen name. |
+| `craft-store-listing` | **Store listing.** Description, keywords and categories for online bookstores, aimed at the right readers. |
 
 ```
 /plugin install craft-fresh-prose@convertsprint
@@ -34,7 +38,7 @@ Then add the craft plugins you want. Each is optional and installs on its own:
 ## What's in fiction-studio
 
 - The Writing Studio connector (`https://convertsprintstudio.com/mcp`): Claude reads your books, story bible, plan and timeline, and saves drafts and reviews into your book as suggestions you accept or discard. You sign in the first time.
-- Skills: `write-chapter`, `plan-book`, `craft-plugins`.
+- Skills: `write-chapter`, `plan-book`, `launch-copy`, `craft-plugins`.
 - Editor agents: `copy-editor`, `development-editor`, `story-critic`.
 
 Everything also works without a studio account, on text you paste or files in your project.
