@@ -38,7 +38,7 @@ Then add the craft plugins you want. Each is optional and installs on its own:
 ## What's in fiction-studio
 
 - The Writing Studio connector (`https://convertsprintstudio.com/mcp`): Claude reads your books, story bible, plan and timeline, and saves drafts and reviews into your book as suggestions you accept or discard. You sign in the first time.
-- Skills: `write-chapter`, `plan-book`, `launch-copy`, `craft-plugins`.
+- Skills: `write-chapter`, `plan-book`, `book-memory`, `launch-copy`, `craft-plugins`.
 - Editor agents: `copy-editor`, `development-editor`, `story-critic`.
 
 Everything also works without a studio account, on text you paste or files in your project.

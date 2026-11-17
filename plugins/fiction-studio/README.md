@@ -5,7 +5,7 @@ Claude as a fiction-writing partner that works in your own book. It connects Cla
 ## What you get
 
 - **Writing Studio connector**: Claude can read your books, story bible, plan and timeline, and save drafts, plans and reviews. You sign in to the studio the first time Claude uses it.
-- **Skills**: `write-chapter` (draft, continue or redraft), `plan-book` (premise, chapter plans, clues, timeline), `launch-copy` (blurb, tagline, pitch, reader emails, bio, store listing) and `craft-plugins` (choose which practice packs to switch on for a book).
+- **Skills**: `write-chapter` (draft, continue or redraft), `plan-book` (premise, chapter plans, clues, timeline), `launch-copy` (blurb, tagline, pitch, reader emails, bio, store listing), `book-memory` (promise ledger and story so far) and `craft-plugins` (choose which practice packs to switch on for a book).
 - **Editor agents**: `copy-editor`, `development-editor` and `story-critic`.
 
 Everything works without the studio too, on text you paste or files in your project; you just can't save into a book.
