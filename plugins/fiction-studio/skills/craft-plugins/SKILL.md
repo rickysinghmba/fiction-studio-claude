@@ -20,6 +20,9 @@ They can also be switched on in the studio: Writing Studio → Tools → Craft p
 
 The same packs install as Claude plugins from the `convertsprint` marketplace, one per pack, so they apply to any writing in Claude:
 
+- `craft-premise-lab`: Premise lab. Turns a rough idea into a premise that can carry a whole book.
+- `craft-character-forge`: Character forge. Gives each lead a want, a need, a wound, a false belief, an arc and a voice.
+- `craft-outline-stress-test`: Outline stress test. Finds the plot holes in your plan before you write them.
 - `craft-fresh-prose`: Fresh prose. Catches the stock phrases and habits that make prose sound machine-written.
 - `craft-line-craft`: Line craft. Sentence-level discipline: dialogue tags, verbs, rhythm and punctuation.
 - `craft-scene-engine`: Scene engine. Every scene wants something, meets resistance, and changes someone.

@@ -5,133 +5,154 @@
   },
   "metadata": {
     "description": "Fiction-writing plugins for Claude from the Convert Sprint Writing Studio.",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   "plugins": [
     {
       "name": "fiction-studio",
       "source": "./plugins/fiction-studio",
       "description": "Writing Studio connector, drafting and planning skills, and three editor agents.",
-      "version": "1.3.0",
+      "version": "1.4.0",
+      "category": "writing"
+    },
+    {
+      "name": "craft-premise-lab",
+      "source": "./plugins/craft-premise-lab",
+      "description": "Premise lab: Turns a rough idea into a premise that can carry a whole book.",
+      "version": "1.4.0",
+      "category": "writing"
+    },
+    {
+      "name": "craft-character-forge",
+      "source": "./plugins/craft-character-forge",
+      "description": "Character forge: Gives each lead a want, a need, a wound, a false belief, an arc and a voice.",
+      "version": "1.4.0",
+      "category": "writing"
+    },
+    {
+      "name": "craft-outline-stress-test",
+      "source": "./plugins/craft-outline-stress-test",
+      "description": "Outline stress test: Finds the plot holes in your plan before you write them.",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-fresh-prose",
       "source": "./plugins/craft-fresh-prose",
       "description": "Fresh prose: Catches the stock phrases and habits that make prose sound machine-written.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-line-craft",
       "source": "./plugins/craft-line-craft",
       "description": "Line craft: Sentence-level discipline: dialogue tags, verbs, rhythm and punctuation.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-scene-engine",
       "source": "./plugins/craft-scene-engine",
       "description": "Scene engine: Every scene wants something, meets resistance, and changes someone.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-pacing",
       "source": "./plugins/craft-pacing",
       "description": "Pacing & structure: Tension across the book: no long flat stretches, no endless peaks, a middle that pulls.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-setups-payoffs",
       "source": "./plugins/craft-setups-payoffs",
       "description": "Setups & payoffs: Tracks the promises your book makes to readers, and whether it keeps them.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-continuity",
       "source": "./plugins/craft-continuity",
       "description": "Continuity detective: Contradictions in character, timeline, world rules and facts, with evidence.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-dialogue-coach",
       "source": "./plugins/craft-dialogue-coach",
       "description": "Dialogue coach: Each character sounds like themselves and only knows what they should.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-market-reader",
       "source": "./plugins/craft-market-reader",
       "description": "Market reader: A commercial reader's view beside the critic's craft view.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-mystery-fair-play",
       "source": "./plugins/craft-mystery-fair-play",
       "description": "Mystery fair play: Every clue on the page before the reveal, and red herrings that play fair.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-romance-beats",
       "source": "./plugins/craft-romance-beats",
       "description": "Romance beats: The relationship arc readers came for, with both leads changing along the way.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-thriller-tension",
       "source": "./plugins/craft-thriller-tension",
       "description": "Thriller tension: A clock that keeps ticking and stakes that rise every chapter.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-worldbuilding",
       "source": "./plugins/craft-worldbuilding",
       "description": "Worldbuilding: Magic and technology with costs and limits, shown through the story, never dumped.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-serial-hooks",
       "source": "./plugins/craft-serial-hooks",
       "description": "Serial hooks: Every chapter opens fast and ends with a reason to read the next one.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-blurb-pitch",
       "source": "./plugins/craft-blurb-pitch",
       "description": "Blurb & pitch: Back-cover copy, a one-line hook and a pitch, in the genre's own style.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-reader-emails",
       "source": "./plugins/craft-reader-emails",
       "description": "Reader emails: New-chapter, launch and update emails in your own voice, honest about what's free.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-author-bio",
       "source": "./plugins/craft-author-bio",
       "description": "Author bio & page: An author bio and author-page copy that sound like the pen name.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     },
     {
       "name": "craft-store-listing",
       "source": "./plugins/craft-store-listing",
       "description": "Store listing: Description, keywords and categories for online bookstores, aimed at the right readers.",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "writing"
     }
   ]

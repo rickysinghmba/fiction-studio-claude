@@ -1,0 +1,17 @@
+{
+  "name": "craft-premise-lab",
+  "version": "1.4.0",
+  "description": "Premise lab: Turns a rough idea into a premise that can carry a whole book.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "plan",
+    "premise-lab"
+  ]
+}

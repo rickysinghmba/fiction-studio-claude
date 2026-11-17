@@ -19,6 +19,9 @@ Everything works without the studio too, on text you paste or files in your proj
 
 Then add any craft plugins you want, one per pack:
 
+- `craft-premise-lab`: Turns a rough idea into a premise that can carry a whole book.
+- `craft-character-forge`: Gives each lead a want, a need, a wound, a false belief, an arc and a voice.
+- `craft-outline-stress-test`: Finds the plot holes in your plan before you write them.
 - `craft-fresh-prose`: Catches the stock phrases and habits that make prose sound machine-written.
 - `craft-line-craft`: Sentence-level discipline: dialogue tags, verbs, rhythm and punctuation.
 - `craft-scene-engine`: Every scene wants something, meets resistance, and changes someone.

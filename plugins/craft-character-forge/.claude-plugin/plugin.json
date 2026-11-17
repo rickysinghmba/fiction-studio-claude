@@ -1,0 +1,17 @@
+{
+  "name": "craft-character-forge",
+  "version": "1.4.0",
+  "description": "Character forge: Gives each lead a want, a need, a wound, a false belief, an arc and a voice.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "plan",
+    "character-forge"
+  ]
+}
