@@ -1,6 +1,6 @@
 {
   "name": "craft-setups-payoffs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Setups & payoffs: Tracks the promises your book makes to readers, and whether it keeps them.",
   "author": {
     "name": "Convert Sprint"
@@ -11,6 +11,7 @@
     "fiction",
     "writing",
     "editing",
+    "craft",
     "setups-payoffs"
   ]
 }

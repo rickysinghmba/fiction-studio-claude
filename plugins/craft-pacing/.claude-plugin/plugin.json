@@ -1,6 +1,6 @@
 {
   "name": "craft-pacing",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pacing & structure: Tension across the book: no long flat stretches, no endless peaks, a middle that pulls.",
   "author": {
     "name": "Convert Sprint"
@@ -11,6 +11,7 @@
     "fiction",
     "writing",
     "editing",
+    "craft",
     "pacing"
   ]
 }

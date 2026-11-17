@@ -1,0 +1,17 @@
+{
+  "name": "craft-worldbuilding",
+  "version": "1.1.0",
+  "description": "Worldbuilding: Magic and technology with costs and limits, shown through the story, never dumped.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "genre",
+    "worldbuilding"
+  ]
+}

@@ -27,6 +27,11 @@ Then add any craft plugins you want, one per pack:
 - `craft-continuity`: Contradictions in character, timeline, world rules and facts, with evidence.
 - `craft-dialogue-coach`: Each character sounds like themselves and only knows what they should.
 - `craft-market-reader`: A commercial reader's view beside the critic's craft view.
+- `craft-mystery-fair-play`: Every clue on the page before the reveal, and red herrings that play fair.
+- `craft-romance-beats`: The relationship arc readers came for, with both leads changing along the way.
+- `craft-thriller-tension`: A clock that keeps ticking and stakes that rise every chapter.
+- `craft-worldbuilding`: Magic and technology with costs and limits, shown through the story, never dumped.
+- `craft-serial-hooks`: Every chapter opens fast and ends with a reason to read the next one.
 
 ## In the Claude app
 

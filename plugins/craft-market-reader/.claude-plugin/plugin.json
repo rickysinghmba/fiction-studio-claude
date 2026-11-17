@@ -1,6 +1,6 @@
 {
   "name": "craft-market-reader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Market reader: A commercial reader's view beside the critic's craft view.",
   "author": {
     "name": "Convert Sprint"
@@ -11,6 +11,7 @@
     "fiction",
     "writing",
     "editing",
+    "craft",
     "market-reader"
   ]
 }

@@ -21,6 +21,11 @@ Then add the craft plugins you want. Each is optional and installs on its own:
 | `craft-continuity` | **Continuity detective.** Contradictions in character, timeline, world rules and facts, with evidence. |
 | `craft-dialogue-coach` | **Dialogue coach.** Each character sounds like themselves and only knows what they should. |
 | `craft-market-reader` | **Market reader.** A commercial reader's view beside the critic's craft view. |
+| `craft-mystery-fair-play` | **Mystery fair play.** Every clue on the page before the reveal, and red herrings that play fair. |
+| `craft-romance-beats` | **Romance beats.** The relationship arc readers came for, with both leads changing along the way. |
+| `craft-thriller-tension` | **Thriller tension.** A clock that keeps ticking and stakes that rise every chapter. |
+| `craft-worldbuilding` | **Worldbuilding.** Magic and technology with costs and limits, shown through the story, never dumped. |
+| `craft-serial-hooks` | **Serial hooks.** Every chapter opens fast and ends with a reason to read the next one. |
 
 ```
 /plugin install craft-fresh-prose@convertsprint
