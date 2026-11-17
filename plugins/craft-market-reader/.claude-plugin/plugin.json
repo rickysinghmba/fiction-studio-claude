@@ -1,0 +1,16 @@
+{
+  "name": "craft-market-reader",
+  "version": "1.0.0",
+  "description": "Market reader: A commercial reader's view beside the critic's craft view.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "market-reader"
+  ]
+}

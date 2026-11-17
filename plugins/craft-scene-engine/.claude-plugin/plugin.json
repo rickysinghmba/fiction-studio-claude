@@ -1,0 +1,16 @@
+{
+  "name": "craft-scene-engine",
+  "version": "1.0.0",
+  "description": "Scene engine: Every scene wants something, meets resistance, and changes someone.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "scene-engine"
+  ]
+}

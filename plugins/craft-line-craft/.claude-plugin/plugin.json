@@ -1,0 +1,16 @@
+{
+  "name": "craft-line-craft",
+  "version": "1.0.0",
+  "description": "Line craft: Sentence-level discipline: dialogue tags, verbs, rhythm and punctuation.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "line-craft"
+  ]
+}

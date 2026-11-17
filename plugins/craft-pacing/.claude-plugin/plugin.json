@@ -1,0 +1,16 @@
+{
+  "name": "craft-pacing",
+  "version": "1.0.0",
+  "description": "Pacing & structure: Tension across the book: no long flat stretches, no endless peaks, a middle that pulls.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "pacing"
+  ]
+}

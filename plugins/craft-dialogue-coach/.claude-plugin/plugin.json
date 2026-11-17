@@ -1,0 +1,16 @@
+{
+  "name": "craft-dialogue-coach",
+  "version": "1.0.0",
+  "description": "Dialogue coach: Each character sounds like themselves and only knows what they should.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "dialogue-coach"
+  ]
+}

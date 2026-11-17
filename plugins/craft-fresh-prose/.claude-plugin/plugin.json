@@ -1,0 +1,16 @@
+{
+  "name": "craft-fresh-prose",
+  "version": "1.0.0",
+  "description": "Fresh prose: Catches the stock phrases and habits that make prose sound machine-written.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "fresh-prose"
+  ]
+}

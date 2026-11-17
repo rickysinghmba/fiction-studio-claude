@@ -1,0 +1,16 @@
+{
+  "name": "craft-continuity",
+  "version": "1.0.0",
+  "description": "Continuity detective: Contradictions in character, timeline, world rules and facts, with evidence.",
+  "author": {
+    "name": "Convert Sprint"
+  },
+  "homepage": "https://convertsprintstudio.com/features",
+  "license": "MIT",
+  "keywords": [
+    "fiction",
+    "writing",
+    "editing",
+    "continuity"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "convertsprint-writing-studio": {
+      "type": "http",
+      "url": "https://convertsprintstudio.com/mcp"
+    }
+  }
+}
