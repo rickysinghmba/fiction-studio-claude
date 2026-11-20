@@ -1,6 +1,6 @@
 # Fiction Studio for Claude
 
-Fiction-writing plugins for Claude from the [Convert Sprint Writing Studio](https://convertsprintstudio.com/features): a writing partner that drafts in your voice, plans your book, edits like a copy editor, a development editor or a harsh critic, and follows the craft practices you choose.
+Fiction-writing plugins for Claude from the [Convert Sprint Writing Studio](https://convertsprintstudio.com/features): a writing partner that drafts in your voice, plans your book, runs nine editors on your chapters (from a development editor to a cold reader panel) and acts on what they find, and follows the craft practices you choose.
 
 ## Install (Claude Code)
 
@@ -41,8 +41,10 @@ Then add the craft plugins you want. Each is optional and installs on its own:
 ## What's in fiction-studio
 
 - The Writing Studio connector (`https://convertsprintstudio.com/mcp`): Claude reads your books, story bible, plan and timeline, and saves drafts and reviews into your book as suggestions you accept or discard. You sign in the first time.
-- Skills: `write-chapter`, `plan-book`, `book-memory`, `launch-copy`, `craft-plugins`.
-- Editor agents: `copy-editor`, `development-editor`, `story-critic`.
+- Skills: `write-chapter`, `plan-book`, `edit-chapter`, `fix-all`, `decisions`, `preflight`, `book-memory`, `launch-copy`, `craft-plugins`.
+- Editor agents: `development-editor`, `story-critic`, `reader-panel`, `accuracy-editor`, `copy-editor`, `proofreader`, `voice-check`, `store-preview`, `guess-the-ending`.
+
+In Claude Code: `/edit-chapter 17` runs Pre-flight and every editor on chapter 17; `/fix-all` acts on what they found.
 
 Everything also works without a studio account, on text you paste or files in your project.
 

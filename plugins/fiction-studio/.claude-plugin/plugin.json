@@ -1,7 +1,7 @@
 {
   "name": "fiction-studio",
-  "version": "1.4.0",
-  "description": "Claude as a fiction-writing partner in your own book: the Writing Studio connector, drafting and planning skills, and copy, development and critic editors.",
+  "version": "1.5.0",
+  "description": "Claude as a fiction-writing partner in your own book: the Writing Studio connector, drafting, planning and editing skills, and nine editors (development, critic, reader panel, accuracy, voice check, copy, proofreader, store preview, guess the ending).",
   "author": {
     "name": "Convert Sprint"
   },
