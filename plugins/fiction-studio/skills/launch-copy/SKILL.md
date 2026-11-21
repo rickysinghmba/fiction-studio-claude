@@ -5,7 +5,7 @@ description: "Write launch copy for the writer's book: a blurb, tagline, elevato
 
 # Launch copy
 
-Write options; the writer chooses and edits. Use only facts the writer or the studio gave you: never invent awards, sales, reviews or comparable titles.
+Write options; the writer chooses and edits. Use only facts the writer or the studio gave you: never invent awards, sales, reviews or comparable titles, and never name real companies, products or brands unless the writer asks for one by name.
 
 ## With the Writing Studio connected
 

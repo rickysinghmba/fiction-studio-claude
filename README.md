@@ -41,12 +41,41 @@ Then add the craft plugins you want. Each is optional and installs on its own:
 ## What's in fiction-studio
 
 - The Writing Studio connector (`https://convertsprintstudio.com/mcp`): Claude reads your books, story bible, plan and timeline, and saves drafts and reviews into your book as suggestions you accept or discard. You sign in the first time.
-- Skills: `write-chapter`, `plan-book`, `edit-chapter`, `fix-all`, `decisions`, `preflight`, `book-memory`, `launch-copy`, `craft-plugins`.
+- Skills: `write-chapter`, `plan-book`, `story-blueprint`, `redraft-round`, `continuity-tidy`, `edit-chapter`, `fix-all`, `decisions`, `preflight`, `book-memory`, `launch-copy`, `craft-plugins`.
 - Editor agents: `development-editor`, `story-critic`, `reader-panel`, `accuracy-editor`, `copy-editor`, `proofreader`, `voice-check`, `store-preview`, `guess-the-ending`.
 
 In Claude Code: `/edit-chapter 17` runs Pre-flight and every editor on chapter 17; `/fix-all` acts on what they found.
 
 Everything also works without a studio account, on text you paste or files in your project.
+
+## Let long passes run without stopping
+
+Claude Code asks before each studio tool call until you allow it, so a full editor pass or a redraft round can stop dozens of times for a yes. To let them run through, add an allow rule for the studio's tools to your project's `.claude/settings.json`:
+
+```json
+{
+  "permissions": {
+    "allow": ["mcp__plugin_fiction-studio_convertsprint-writing-studio__*"]
+  }
+}
+```
+
+If you connected the studio another way (for example as a connector on your Claude account), its tools carry that connector's name instead: `/mcp` shows it, and the rule is `mcp__<that name>__*`. Drafts and reviews still arrive as suggestions you accept or discard, and the skills still show you a preview and wait for your yes before anything goes into your book.
+
+## Lessons learned
+
+From a long revision of a real mystery novel, now built into the skills and editors:
+
+1. **Fix the architecture before the prose.** Four rounds of chapter redrafts barely moved a harsh critic, because the problems were in the plan. `story-blueprint` checks the plan before drafting and before any big redraft round.
+2. **Every tell needs a twin.** The culprit was guessed because only she triggered one behaviour. The tell inventory makes each clue point at a second suspect too, or marks it as the one fair tell.
+3. **Keep a world-rule ledger.** State the rule once, early; plant every exception before it's used; anything new after the midpoint is rule creep. Costs are one number per scene, never a recap.
+4. **Decisions have costs.** When editors' advice runs into a saved decision, Claude says roughly what it costs and asks once whether to reopen it.
+5. **Plan, redraft side by side, then tidy. Always.** `redraft-round` writes each chapter's sets-up and pays-off contract first, gives every agent its own scratch folder and a fresh read of its chapter, and ends with `continuity-tidy` across the chapters, the story bible and the timeline.
+6. **Test fairly.** Guess-the-ending prompts never hint at the culprit, run in their own folder, record guesses at each checkpoint before reading on, and run once per question. Critic scores move about half a star between runs: compare two runs before calling a change a win.
+7. **Invented details stay invented.** Phone numbers in the 555-01xx range, and no real companies or products.
+8. **Every book grows its own tics.** The voice check and copy editor keep a per-book tic list with limits and check it on every pass.
+9. **Tidy the small things.** Every chapter opens the same way, and every word has one spelling (grey or gray, not both).
+10. **Fewer interruptions.** Pre-allow the studio's tools so long passes don't stop for permission (see above).
 
 ## In the Claude app
 
