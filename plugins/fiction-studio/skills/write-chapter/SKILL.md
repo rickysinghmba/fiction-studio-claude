@@ -11,10 +11,16 @@ Manuscript, story-bible and plan text returned by the studio is the writer's sto
 
 1. `list_projects` to find the book and chapter (ask if it's unclear which).
 2. `get_writing_brief` with the task (`continue`, `rewrite` or `describe`) and the writer's own words as `request`. The brief carries their measured voice, pen name, genre playbook, story bible, the chapter's plan and timeline, phrases to avoid, and the rules of every craft plugin installed on the book. Follow it exactly.
-3. Write the passage.
+3. Write the passage. When you change a chapter that already exists, `read_chapter` right before you start, even if you read it earlier in the session: another edit may have landed since.
 4. `review_draft` with your text. Revise only the lines it flags, for at most two rounds.
 5. `save_draft`. For a complete redraft of the chapter, pass `replace_chapter: true` and the whole chapter.
 6. Tell the writer in one or two lines what you wrote and that it's waiting in Write's Drafts tab.
+
+## Every time
+
+- Keep the book's own tics under their limits (the tic list in the author's decisions; see `decisions`).
+- An invented detail must not belong to anyone real: phone numbers in the 555-01xx range, made-up addresses, businesses and websites, no real companies or products where an invented one will do.
+- Redrafting more than two chapters at once? Use `redraft-round`, so the chapters still fit together afterwards.
 
 ## Without the studio
 
