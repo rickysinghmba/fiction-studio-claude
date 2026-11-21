@@ -1,6 +1,6 @@
 {
   "name": "craft-outline-stress-test",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Outline stress test: Finds the plot holes in your plan before you write them.",
   "author": {
     "name": "Convert Sprint"
